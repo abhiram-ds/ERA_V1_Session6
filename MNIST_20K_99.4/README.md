@@ -12,7 +12,7 @@
 
 ## Approach: With Avg pooling before fully connected layer
 
-[MNIST_20K_Params_EVA6_Session_4.ipynb](https://github.com/abhiram-ds/ERA_V1_Session6/blob/main/MNIST_20K_99.4/MNIST_20K_Params_ERA_V1_Session_6.ipynb)
+[MNIST_20K_Params_ERA_V1_Session_6.ipynb](https://github.com/abhiram-ds/ERA_V1_Session6/blob/main/MNIST_20K_99.4/MNIST_20K_Params_ERA_V1_Session_6.ipynb)
 
 ### Architecture
 
@@ -29,118 +29,118 @@ Dropout used: 10% at the end each of the 3 blocks
 Global Average Pooling used to bring down the channel size from 7x7x32 to 1x1x32  
 Total Parameters: 18,962  
 
-![image](https://user-images.githubusercontent.com/31658286/120031587-9e257300-c016-11eb-9242-11a36f3cbc66.png)
-
-
 ### Training Logs
 
 ```
-Epoch 1 : 
-Train set: Average loss: 0.2658, Accuracy: 81.20
+Adjusting learning rate of group 0 to 1.0000e-02.
+Epoch 1
+Train: Loss=0.1392 Batch_id=468 Accuracy=77.82: 100%|██████████| 469/469 [00:34<00:00, 13.70it/s]
+Test set: Average loss: 0.0831, Accuracy: 9762/10000 (97.62%)
 
-Test set: Average loss: 0.110, Accuracy: 96.65
+Adjusting learning rate of group 0 to 1.0000e-02.
+Epoch 2
+Train: Loss=0.1619 Batch_id=468 Accuracy=96.28: 100%|██████████| 469/469 [00:25<00:00, 18.43it/s]
+Test set: Average loss: 0.0488, Accuracy: 9853/10000 (98.53%)
 
-Epoch 2 : 
-Train set: Average loss: 0.0619, Accuracy: 97.35
+Adjusting learning rate of group 0 to 1.0000e-02.
+Epoch 3
+Train: Loss=0.1054 Batch_id=468 Accuracy=97.22: 100%|██████████| 469/469 [00:28<00:00, 16.24it/s]
+Test set: Average loss: 0.0413, Accuracy: 9882/10000 (98.82%)
 
-Test set: Average loss: 0.041, Accuracy: 98.66
+Adjusting learning rate of group 0 to 1.0000e-02.
+Epoch 4
+Train: Loss=0.0160 Batch_id=468 Accuracy=97.61: 100%|██████████| 469/469 [00:26<00:00, 17.80it/s]
+Test set: Average loss: 0.0316, Accuracy: 9895/10000 (98.95%)
 
-Epoch 3 : 
-Train set: Average loss: 0.0540, Accuracy: 98.05
+Adjusting learning rate of group 0 to 1.0000e-02.
+Epoch 5
+Train: Loss=0.0479 Batch_id=468 Accuracy=97.88: 100%|██████████| 469/469 [00:25<00:00, 18.32it/s]
+Test set: Average loss: 0.0258, Accuracy: 9916/10000 (99.16%)
 
-Test set: Average loss: 0.039, Accuracy: 98.71
+Adjusting learning rate of group 0 to 1.0000e-02.
+Epoch 6
+Train: Loss=0.0774 Batch_id=468 Accuracy=98.05: 100%|██████████| 469/469 [00:25<00:00, 18.47it/s]
+Test set: Average loss: 0.0273, Accuracy: 9913/10000 (99.13%)
 
-Epoch 4 : 
-Train set: Average loss: 0.0376, Accuracy: 98.38
+Adjusting learning rate of group 0 to 1.0000e-02.
+Epoch 7
+Train: Loss=0.0824 Batch_id=468 Accuracy=98.22: 100%|██████████| 469/469 [00:25<00:00, 18.47it/s]
+Test set: Average loss: 0.0254, Accuracy: 9919/10000 (99.19%)
 
-Test set: Average loss: 0.037, Accuracy: 98.85
+Adjusting learning rate of group 0 to 1.0000e-02.
+Epoch 8
+Train: Loss=0.0231 Batch_id=468 Accuracy=98.27: 100%|██████████| 469/469 [00:25<00:00, 18.62it/s]
+Test set: Average loss: 0.0239, Accuracy: 9921/10000 (99.21%)
 
-Epoch 5 : 
-Train set: Average loss: 0.0350, Accuracy: 98.64
+Adjusting learning rate of group 0 to 1.0000e-02.
+Epoch 9
+Train: Loss=0.0335 Batch_id=468 Accuracy=98.42: 100%|██████████| 469/469 [00:25<00:00, 18.61it/s]
+Test set: Average loss: 0.0240, Accuracy: 9927/10000 (99.27%)
 
-Test set: Average loss: 0.028, Accuracy: 99.04
+Adjusting learning rate of group 0 to 1.0000e-02.
+Epoch 10
+Train: Loss=0.0880 Batch_id=468 Accuracy=98.38: 100%|██████████| 469/469 [00:25<00:00, 18.11it/s]
+Test set: Average loss: 0.0233, Accuracy: 9928/10000 (99.28%)
 
-Epoch 6 : 
-Train set: Average loss: 0.0745, Accuracy: 98.72
+Adjusting learning rate of group 0 to 1.0000e-02.
+Epoch 11
+Train: Loss=0.0799 Batch_id=468 Accuracy=98.47: 100%|██████████| 469/469 [00:25<00:00, 18.71it/s]
+Test set: Average loss: 0.0221, Accuracy: 9937/10000 (99.37%)
 
-Test set: Average loss: 0.026, Accuracy: 99.14
+Adjusting learning rate of group 0 to 1.0000e-02.
+Epoch 12
+Train: Loss=0.0957 Batch_id=468 Accuracy=98.52: 100%|██████████| 469/469 [00:25<00:00, 18.58it/s]
+Test set: Average loss: 0.0222, Accuracy: 9935/10000 (99.35%)
 
-Epoch 7 : 
-Train set: Average loss: 0.0307, Accuracy: 98.84
+Adjusting learning rate of group 0 to 1.0000e-02.
+Epoch 13
+Train: Loss=0.0260 Batch_id=468 Accuracy=98.61: 100%|██████████| 469/469 [00:25<00:00, 18.63it/s]
+Test set: Average loss: 0.0213, Accuracy: 9936/10000 (99.36%)
 
-Test set: Average loss: 0.025, Accuracy: 99.18
+Adjusting learning rate of group 0 to 1.0000e-02.
+Epoch 14
+Train: Loss=0.1180 Batch_id=468 Accuracy=98.61: 100%|██████████| 469/469 [00:24<00:00, 18.87it/s]
+Test set: Average loss: 0.0218, Accuracy: 9928/10000 (99.28%)
 
-Epoch 8 : 
-Train set: Average loss: 0.0736, Accuracy: 98.92
+Adjusting learning rate of group 0 to 1.0000e-02.
+Epoch 15
+Train: Loss=0.0541 Batch_id=468 Accuracy=98.70: 100%|██████████| 469/469 [00:24<00:00, 18.90it/s]
+Test set: Average loss: 0.0210, Accuracy: 9937/10000 (99.37%)
 
-Test set: Average loss: 0.024, Accuracy: 99.27
+Adjusting learning rate of group 0 to 1.0000e-03.
+Epoch 16
+Train: Loss=0.0576 Batch_id=468 Accuracy=98.96: 100%|██████████| 469/469 [00:25<00:00, 18.66it/s]
+Test set: Average loss: 0.0183, Accuracy: 9941/10000 (99.41%)
 
-Epoch 9 : 
-Train set: Average loss: 0.0105, Accuracy: 98.98
+Adjusting learning rate of group 0 to 1.0000e-03.
+Epoch 17
+Train: Loss=0.0104 Batch_id=468 Accuracy=98.91: 100%|██████████| 469/469 [00:25<00:00, 18.55it/s]
+Test set: Average loss: 0.0179, Accuracy: 9940/10000 (99.40%)
 
-Test set: Average loss: 0.022, Accuracy: 99.31
+Adjusting learning rate of group 0 to 1.0000e-03.
+Epoch 18
+Train: Loss=0.0855 Batch_id=468 Accuracy=98.91: 100%|██████████| 469/469 [00:25<00:00, 18.52it/s]
+Test set: Average loss: 0.0180, Accuracy: 9945/10000 (99.45%)
 
-Epoch 10 : 
-Train set: Average loss: 0.0064, Accuracy: 99.05
+Adjusting learning rate of group 0 to 1.0000e-03.
+Epoch 19
+Train: Loss=0.0161 Batch_id=468 Accuracy=99.02: 100%|██████████| 469/469 [00:25<00:00, 18.67it/s]
+Test set: Average loss: 0.0180, Accuracy: 9940/10000 (99.40%)
 
-Test set: Average loss: 0.020, Accuracy: 99.39
+Adjusting learning rate of group 0 to 1.0000e-03.
+Epoch 20
+Train: Loss=0.0341 Batch_id=468 Accuracy=98.97: 100%|██████████| 469/469 [00:25<00:00, 18.59it/s]
+Test set: Average loss: 0.0172, Accuracy: 9945/10000 (99.45%)
 
-Epoch 11 : 
-Train set: Average loss: 0.0446, Accuracy: 99.15
+Adjusting learning rate of group 0 to 1.0000e-03.
 
-Test set: Average loss: 0.023, Accuracy: 99.27
-
-Epoch 12 : 
-Train set: Average loss: 0.0319, Accuracy: 99.13
-
-Test set: Average loss: 0.020, Accuracy: 99.27
-
-Epoch 13 : 
-Train set: Average loss: 0.0253, Accuracy: 99.18
-
-Test set: Average loss: 0.022, Accuracy: 99.23
-
-Epoch 14 : 
-Train set: Average loss: 0.0097, Accuracy: 99.28
-
-Test set: Average loss: 0.020, Accuracy: 99.39
-
-Epoch 15 : 
-Train set: Average loss: 0.0032, Accuracy: 99.18
-
-Test set: Average loss: 0.021, Accuracy: 99.35
-
-Epoch 16 : 
-Train set: Average loss: 0.0061, Accuracy: 99.28
-
-Test set: Average loss: 0.017, Accuracy: 99.44
-
-Epoch 17 : 
-Train set: Average loss: 0.0091, Accuracy: 99.25
-
-Test set: Average loss: 0.020, Accuracy: 99.25
-
-Epoch 18 : 
-Train set: Average loss: 0.0069, Accuracy: 99.28
-
-Test set: Average loss: 0.018, Accuracy: 99.42
-
-Epoch 19 : 
-Train set: Average loss: 0.0429, Accuracy: 99.38
-
-Test set: Average loss: 0.019, Accuracy: 99.40
-
-Epoch 20 : 
-Train set: Average loss: 0.0026, Accuracy: 99.41
-
-Test set: Average loss: 0.018, Accuracy: 99.44
 ```
 
 ### Losses and Accuracy
 
-![image](https://user-images.githubusercontent.com/31658286/120030553-3fabc500-c015-11eb-89bf-e4101541c18d.png)
+![image](https://github.com/abhiram-ds/ERA_V1_Session6/assets/71654199/c297a0e9-492c-4787-bec8-716d86f79ef1)
 
-![image](https://user-images.githubusercontent.com/31658286/120030649-5c47fd00-c015-11eb-86e1-d87f55ecbe3a.png)
+
 
 
 
