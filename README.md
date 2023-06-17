@@ -8,5 +8,5 @@ This is a very exciting activity to understand how Backpropagation actually work
 
 ### 2. Implement a MNIST digit identifer to achieve 99.4% Accuracy:
 
-Moving onto coding, we have implemented MNIST digit identifier based on some basic Architectural concepts like MaxPooling, Global Average Pooling (GAP), Batch Normalization and DropOut. Click [HERE](https://github.com/abhiram-ds/ERA_V1_Session6/tree/main/MNIST_with_99.4)  to access the code and read more about the implementation.
+Moving onto coding, we have implemented MNIST digit identifier based on some basic Architectural concepts like MaxPooling, Global Average Pooling (GAP), Batch Normalization and DropOut. Click [HERE](https://github.com/abhiram-ds/ERA_V1_Session6/tree/main/MNIST_20K_99.4)  to access the code and read more about the implementation.
 
